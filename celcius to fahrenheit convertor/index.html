@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>lengthConvertor</title>
+</head>
+<body>
+   <div id="wrapper">
+    <h2>celcius to fahrenheit</h2>
+    <input type="text" id="input" placeholder="celcius in degree">
+   <div>
+    <button type="submit" onclick="convert()">convert to fahrenheit</button>
+   </div>
+   <div id="result">
+
+   </div>
+   </div>
+
+   <script>
+    function convert(){
+     let input=Number(document.getElementById("input").value)
+     let output=input*1.80+32.0
+     let result=document.getElementById("result")
+     result.innerHTML=output.toFixed(3) +"  °F"
+    };
+   </script>
+</body>
+</html>

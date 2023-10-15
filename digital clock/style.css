@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding:0;
+    background: rgb(2,0,36);
+    background: black;
+    background-image: url(clock2.avif);
+}
+
+.container{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    display:flex;
+    width:100vw;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+#wrapper{
+    padding:1rem;
+    border-radius: 15px;
+    color: orangered;
+    text-shadow: 2px 2px lightblue;
+    text-decoration: solid black;
+
+}
+
+.container span{
+    margin-left:10px;
+}
+
+#ampm{
+    font-size:3rem;
+    align-items: end;
+}
