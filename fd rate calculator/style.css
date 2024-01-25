@@ -1,0 +1,69 @@
+body{
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   background-image: url(avengers.jpg);
+}
+
+#wrapper div,#wrapper h2{
+    display:flex;
+    justify-content: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+h2{
+    color:#ffeba7;
+    letter-spacing: 1px;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #6302be, 0 0 40px #3601a9, 0 0 50px #4a0297, 0 0 60px #2002cb, 0 0 70px #6402c0;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+input{
+    border-radius: 5px;
+    border: 2px solid black ;
+    margin-top:30px;
+    height:2em;
+    width:250px;
+    padding-left:10px;
+}
+
+input:active{
+    border:none;
+}
+#wrapper{
+    height:500px;
+    width:400px;
+    margin:200px auto;
+    background: rgb(5,2,10);
+    background: linear-gradient(94deg, rgba(5,2,10,0.8632703081232493) 14%, rgba(115,30,206,0.5159313725490196) 46%, rgba(118,31,218,0.6055672268907564) 58%, rgba(2,2,10,0.7036064425770308) 91%);
+
+    border-radius:10px;
+    padding:30px;
+}
+
+button{
+    margin-top:20px;
+    background-color:#ffeba7;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    background-color: #ffeba7;
+    color: #102770;
+}
+
+button:hover{
+    cursor:pointer;
+}
+#result{
+    color:white;
+    margin-top:20px;
+    font-size:32px;
+}
